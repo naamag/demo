@@ -10,7 +10,7 @@ spec_version: 1
 kind: blueprint
 metadata:
   description: >
-    Economic deployment of Ruby on Rails and MySQL on an ALL-IN-1 server
+    Run regression code UI tests
 
 clouds:
   - kubernetes-testing

@@ -1,19 +1,13 @@
-# A WordPress web site deployed on 2 EC2 instances
-#
-#       [Front End] (Apache, PHP, WordPress)
-#            |
-#       [Back End]  (MySQL)
-#
 #
 ---
 spec_version: 1
 kind: blueprint
 
 metadata:
-  description: LAMP WordPress stack (Linux, Apache, MySQL, PHP)
+  description: Test your build on an exact replica of your production environment
 
 clouds:
-  - Azure: westeurope
+  - azure-staging: westeurope
 
 # These are the blueprint parameters and their default values.
 # The values can be changed when creating a sandbox based on this

@@ -1,11 +1,3 @@
-# Ruby on Rails Website deployed on 2 EC2 instances
-#
-#       [Front End] (Rails, Ruby, Webrick)
-#            |
-#       [Back End]  (MySQL)
-#
-# Application source code:
-# https://github.com/cloudshell-colony/sample_rails_source
 #
 ---
 spec_version: 1
@@ -13,10 +5,10 @@ kind: blueprint
 
 metadata:
   description: >
-    Ruby On Rails & MySQL deployed on 2 servers - front-end, back-end
+    Test the robustness, availability and error handling of your software
 
 clouds:
-  - Azure: westeurope
+  - azure-staging: westeurope
 
 # These are the blueprint parameters and their default values.
 # The values can be changed when creating a sandbox based on this
