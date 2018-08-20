@@ -8,7 +8,7 @@ metadata:
   description: Demo your software to prospects and customers
 
 clouds:
-  - azure-staging: westeurope
+    - aws: eu-west-1
 
 
 # These are the blueprint parameters and their default values.
