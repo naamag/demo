@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f7936b5-378e-4b47-b6aa-ae6999bd4027" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/blueprints/1 Development Environment.yaml" afterPath="$PROJECT_DIR$/blueprints/1 Development Environment.yaml" />
-      <change beforePath="$PROJECT_DIR$/blueprints/2 Smoke Tests.yaml" afterPath="$PROJECT_DIR$/blueprints/2 Smoke Tests.yaml" />
-      <change beforePath="$PROJECT_DIR$/blueprints/3 UI Automation Tests.yaml" afterPath="$PROJECT_DIR$/blueprints/3 UI Automation Tests.yaml" />
-      <change beforePath="$PROJECT_DIR$/blueprints/4 Integration Tests.yaml" afterPath="$PROJECT_DIR$/blueprints/4 Integration Tests.yaml" />
-      <change beforePath="$PROJECT_DIR$/blueprints/5 Performance Stress Tests.yaml" afterPath="$PROJECT_DIR$/blueprints/5 Performance Stress Tests.yaml" />
-      <change beforePath="$PROJECT_DIR$/blueprints/6 Security Tests.yaml" afterPath="$PROJECT_DIR$/blueprints/6 Security Tests.yaml" />
-      <change beforePath="$PROJECT_DIR$/blueprints/7 Staging.yaml" afterPath="$PROJECT_DIR$/blueprints/7 Staging.yaml" />
-      <change beforePath="$PROJECT_DIR$/blueprints/9 User Acceptance.yaml" afterPath="$PROJECT_DIR$/blueprints/9 User Acceptance.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/blueprints/9 Sales Demo.yaml" />
+      <change beforePath="$PROJECT_DIR$/blueprints/9 User Acceptance.yaml" afterPath="$PROJECT_DIR$/blueprints/8 User Acceptance.yaml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -90,11 +84,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="9 User Acceptance.yaml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blueprints/9 User Acceptance.yaml">
+      <file leaf-file-name="8 User Acceptance.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blueprints/8 User Acceptance.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+              <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="9 Sales Demo.yaml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blueprints/9 Sales Demo.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="50" lean-forward="false" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -126,6 +130,7 @@
         <option value="$PROJECT_DIR$/blueprints/6 Security Tests.yaml" />
         <option value="$PROJECT_DIR$/blueprints/7 Staging.yaml" />
         <option value="$PROJECT_DIR$/blueprints/9 User Acceptance.yaml" />
+        <option value="$PROJECT_DIR$/blueprints/9 Sales Demo.yaml" />
       </list>
     </option>
   </component>
@@ -311,10 +316,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blueprints/9 User Acceptance.yaml">
+    <entry file="file://$PROJECT_DIR$/blueprints/8 User Acceptance.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blueprints/9 Sales Demo.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="50" lean-forward="false" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
           <folding />
         </state>
       </provider>
