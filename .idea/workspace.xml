@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f7936b5-378e-4b47-b6aa-ae6999bd4027" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/demo.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blueprints/2 Smoke Tests.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blueprints/9 User Acceptance.yaml" />
-      <change beforePath="$PROJECT_DIR$/blueprints/Java Spring.yaml" afterPath="$PROJECT_DIR$/blueprints/1 Development Environment.yaml" />
-      <change beforePath="$PROJECT_DIR$/blueprints/Node JS (Microservices).yaml" afterPath="$PROJECT_DIR$/blueprints/4 Integration Tests.yaml" />
-      <change beforePath="$PROJECT_DIR$/blueprints/Rails (ALL-In-1-Server).yaml" afterPath="$PROJECT_DIR$/blueprints/3 UI Automation Tests.yaml" />
-      <change beforePath="$PROJECT_DIR$/blueprints/Rails (Basic-2-Node).yaml" afterPath="$PROJECT_DIR$/blueprints/5 Performance Stress Tests.yaml" />
-      <change beforePath="$PROJECT_DIR$/blueprints/Rails (Production-Like).yaml" afterPath="$PROJECT_DIR$/blueprints/6 Security Tests.yaml" />
-      <change beforePath="$PROJECT_DIR$/blueprints/Wordpress (LAMP).yaml" afterPath="$PROJECT_DIR$/blueprints/7 Staging.yaml" />
-    </list>
+    <list default="true" id="7f7936b5-378e-4b47-b6aa-ae6999bd4027" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
