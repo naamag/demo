@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f7936b5-378e-4b47-b6aa-ae6999bd4027" name="Default" comment="" />
+    <list default="true" id="7f7936b5-378e-4b47-b6aa-ae6999bd4027" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/blueprints/4 Integration Tests.yaml" afterPath="$PROJECT_DIR$/blueprints/4 Integration Tests.yaml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="1 Development Environment.yaml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="1 Development Environment.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blueprints/1 Development Environment.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -41,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="4 Integration Tests.yaml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="4 Integration Tests.yaml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blueprints/4 Integration Tests.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+            <state relative-caret-position="510">
+              <caret line="30" column="17" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -109,7 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/blueprints/4 Integration Tests.yaml" />
         <option value="$PROJECT_DIR$/blueprints/5 Performance Stress Tests.yaml" />
         <option value="$PROJECT_DIR$/blueprints/6 Security Tests.yaml" />
         <option value="$PROJECT_DIR$/blueprints/7 Staging.yaml" />
@@ -117,6 +118,7 @@
         <option value="$PROJECT_DIR$/blueprints/1 Development Environment.yaml" />
         <option value="$PROJECT_DIR$/blueprints/3 UI Automation Tests.yaml" />
         <option value="$PROJECT_DIR$/blueprints/2 Smoke Tests.yaml" />
+        <option value="$PROJECT_DIR$/blueprints/4 Integration Tests.yaml" />
       </list>
     </option>
   </component>
@@ -278,22 +280,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blueprints/4 Integration Tests.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blueprints/3 UI Automation Tests.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blueprints/2 Smoke Tests.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -306,6 +292,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blueprints/3 UI Automation Tests.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blueprints/4 Integration Tests.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="17" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
           <folding />
         </state>
       </provider>
