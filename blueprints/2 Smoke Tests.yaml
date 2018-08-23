@@ -5,7 +5,7 @@ kind: blueprint
 
 metadata:
   description: >
-    Test your build for stability during ongoing development
+    Build stability testing environment for local and offshore teams  
 
 
 clouds:
