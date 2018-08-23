@@ -5,7 +5,7 @@ kind: blueprint
 
 metadata:
   description: >
-    Test the robustness, availability and error handling of your software
+    Performance testing (robustness, availability, error handling)
 
 clouds:
   - azure-staging: westeurope
