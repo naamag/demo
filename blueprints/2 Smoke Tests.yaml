@@ -5,8 +5,7 @@ kind: blueprint
 
 metadata:
   description: >
-    Test your build for stability during ongoing development
-
+    Build stability testing environment for both local and offshore dev teams
 
 clouds:
   - kubernetes-testing
