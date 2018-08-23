@@ -4,7 +4,7 @@ spec_version: 1
 kind: blueprint
 
 metadata:
-  description: Test your build on an exact replica of your production environment
+  description: Production replica for build testing
 
 clouds:
   - aws: eu-west-1
