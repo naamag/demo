@@ -6,7 +6,7 @@ kind: blueprint
 
 metadata:
   description: >
-    A development environment serving offshore and local teams
+    Dev environment for offshore and local team memebers
 
 
 clouds:
