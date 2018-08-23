@@ -5,7 +5,7 @@ kind: blueprint
 
 metadata:
   description: >
-    Test for code vulnerabilities for risk assessment
+    Code vulnerability and risk assessment tests 
 
 clouds:
   - aws: eu-west-1
