@@ -9,7 +9,7 @@ metadata:
 
 
 clouds:
-  - azure-staging: westeurope
+  - azure: westeurope
 
 applications:
   - ms-data-store:
