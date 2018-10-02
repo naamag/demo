@@ -8,7 +8,7 @@ metadata:
     Performance testing (robustness, availability, error handling)
 
 clouds:
-  - azure-staging: westeurope
+  - azure: westeurope
 
 # These are the blueprint parameters and their default values.
 # The values can be changed when creating a sandbox based on this
