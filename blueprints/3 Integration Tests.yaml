@@ -5,11 +5,11 @@ kind: blueprint
 
 metadata:
   description: >
-    Verify your independet units of software work correctly with each other
+    Integration testing environment
 
 
 clouds:
-  - azure-staging: westeurope
+  - azure: westeurope
 
 applications:
   - ms-data-store:
