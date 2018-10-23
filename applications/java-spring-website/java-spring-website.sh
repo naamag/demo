@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
 
-# For Debugging (print env. variables, define command tracing)
-# set -o xtrace
-# env
-# set
+# For Debugging (print env. variables into a file)
+printenv > /var/log/colony-vars-"$(basename "$BASH_SOURCE" .sh)".txt
 
 
 # Update packages and Upgrade system
@@ -30,7 +28,6 @@ apt-get install tomcat8-admin -y
 echo "****************************************************************"
 echo "Get the web application from github"
 echo "****************************************************************"
-mkdir /home/artifacts
 cd /home/artifacts || exit
 git clone https://github.com/cloudshell-colony/sample_java_spring_source.git
 

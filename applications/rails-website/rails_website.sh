@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 
-# For Debugging (print env. variables, define command tracing)
-# set -o xtrace
-# env
-# set
+set -e
+
+
+# For Debugging (print env. variables into a file)
+printenv > /var/log/colony-vars-"$(basename "$BASH_SOURCE" .sh)".txt
 
 
 # Update packages and Upgrade system
@@ -50,6 +51,10 @@ gem install mysql2
 echo "****************************************************************"
 echo "Installing website (from artifacts) and retrieving dependencies"
 echo "****************************************************************"
+mkdir /home/artifacts
+mkdir /home/artifacts
+mkdir /home/artifacts
+mkdir /home/artifacts
 mkdir /home/artifacts
 cd /home/artifacts || exit
 git clone https://github.com/cloudshell-colony/sample_rails_source.git
