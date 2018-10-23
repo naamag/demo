@@ -30,7 +30,7 @@ applications:
   # Three instances of rails-website
   # (see: applications/rails-website/rails-website.yaml )
   - rails-website:
-      instances: 1000  # Define the number of instances to be deployed
+      instances: 1  # Define the number of instances to be deployed
       input_values:
         - DB_USER: $DB_USER
         - DB_PASS: $DB_PASS
