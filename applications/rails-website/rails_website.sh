@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+# Stop Script on Error
 set -e
 
 
@@ -51,10 +52,6 @@ gem install mysql2
 echo "****************************************************************"
 echo "Installing website (from artifacts) and retrieving dependencies"
 echo "****************************************************************"
-mkdir /home/artifacts
-mkdir /home/artifacts
-mkdir /home/artifacts
-mkdir /home/artifacts
 mkdir /home/artifacts
 cd /home/artifacts || exit
 git clone https://github.com/cloudshell-colony/sample_rails_source.git
