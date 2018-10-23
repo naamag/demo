@@ -30,11 +30,11 @@ applications:
   # Three instances of rails-website
   # (see: applications/rails-website/rails-website.yaml )
   - rails-website:
-      instances: -1  # Define the number of instances to be deployed
+      instances: 1  # Define the number of instances to be deployed
       input_values:
         - DB_USER: $DB_USER
         - DB_PASS: $DB_PASS
-        - DB_NAME: $DB_NAME
+#        - DB_NAME: $DB_NAME
       # The website depends on MySQL and will start deploying only
       # when the database is ready
       depends_on:
