@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f7936b5-378e-4b47-b6aa-ae6999bd4027" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/applications/java-spring-website/java-spring-website.sh" afterPath="$PROJECT_DIR$/applications/java-spring-website/java-spring-website.sh" />
-      <change beforePath="$PROJECT_DIR$/applications/ms-api-gateway/ms-api-gateway.sh" afterPath="$PROJECT_DIR$/applications/ms-api-gateway/ms-api-gateway.sh" />
-      <change beforePath="$PROJECT_DIR$/applications/ms-data-store/ms-data-store.sh" afterPath="$PROJECT_DIR$/applications/ms-data-store/ms-data-store.sh" />
-      <change beforePath="$PROJECT_DIR$/applications/ms-orders-manager/ms-orders-manager.sh" afterPath="$PROJECT_DIR$/applications/ms-orders-manager/ms-orders-manager.sh" />
-      <change beforePath="$PROJECT_DIR$/applications/ms-payments-service/ms-payments-service.sh" afterPath="$PROJECT_DIR$/applications/ms-payments-service/ms-payments-service.sh" />
-      <change beforePath="$PROJECT_DIR$/applications/mysql/mysql.sh" afterPath="$PROJECT_DIR$/applications/mysql/mysql.sh" />
-      <change beforePath="$PROJECT_DIR$/applications/rails-website/rails_website.sh" afterPath="$PROJECT_DIR$/applications/rails-website/rails_website.sh" />
-      <change beforePath="$PROJECT_DIR$/applications/wordpress/wordpress.sh" afterPath="$PROJECT_DIR$/applications/wordpress/wordpress.sh" />
+      <change beforePath="$PROJECT_DIR$/blueprints/5 Security Tests.yaml" afterPath="$PROJECT_DIR$/blueprints/5 Security Tests.yaml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="5 Security Tests.yaml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="5 Security Tests.yaml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blueprints/5 Security Tests.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+            <state relative-caret-position="544">
+              <caret line="32" column="19" lean-forward="false" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -41,7 +33,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rails_website.sh" pinned="false" current-in-tab="true">
+      <file leaf-file-name="rails_website.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/applications/rails-website/rails_website.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="612">
@@ -114,8 +106,8 @@
       <file leaf-file-name="6 Staging.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blueprints/6 Staging.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="44" lean-forward="false" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+            <state relative-caret-position="527">
+              <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -138,7 +130,6 @@
         <option value="$PROJECT_DIR$/blueprints/7 Staging.yaml" />
         <option value="$PROJECT_DIR$/blueprints/9 User Acceptance.yaml" />
         <option value="$PROJECT_DIR$/blueprints/9 Sales Demo.yaml" />
-        <option value="$PROJECT_DIR$/blueprints/5 Security Tests.yaml" />
         <option value="$PROJECT_DIR$/blueprints/6 Staging.yaml" />
         <option value="$PROJECT_DIR$/applications/wordpress/wordpress.sh" />
         <option value="$PROJECT_DIR$/applications/mysql/mysql.sh" />
@@ -148,6 +139,7 @@
         <option value="$PROJECT_DIR$/applications/ms-api-gateway/ms-api-gateway.sh" />
         <option value="$PROJECT_DIR$/applications/java-spring-website/java-spring-website.sh" />
         <option value="$PROJECT_DIR$/applications/rails-website/rails_website.sh" />
+        <option value="$PROJECT_DIR$/blueprints/5 Security Tests.yaml" />
       </list>
     </option>
   </component>
@@ -424,14 +416,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blueprints/6 Staging.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="44" lean-forward="false" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/applications/wordpress/wordpress.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -480,14 +464,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blueprints/5 Security Tests.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/applications/java-spring-website/java-spring-website.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -500,6 +476,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="57" column="21" lean-forward="false" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blueprints/6 Staging.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blueprints/5 Security Tests.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="19" lean-forward="false" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
           <folding />
         </state>
       </provider>
