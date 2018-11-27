@@ -1,10 +1,12 @@
 #!/usr/bin/env bash
 
-# Stop Script on Error
-set -e
 
-# For Debugging (print env. variables into a file)  
-printenv > /var/log/colony-vars-"$(basename "$BASH_SOURCE" .sh)".txt
+echo "****************************************************************"
+echo "For Debugging (print env. variables, define command tracing)"
+echo "****************************************************************"
+#set -o xtrace
+#env
+#set
 
 # Update packages and Upgrade system
 echo "****************************************************************"
@@ -17,8 +19,7 @@ echo "****************************************************************"
 echo "Installing Apache"
 echo "****************************************************************"
 apt-get install apache2 apache2-utils -y
-systemctl enable apache2
-systemctl start apache2
+service apache2 start
 
 
 echo "****************************************************************"
@@ -33,7 +34,7 @@ echo "Installing Wordpress"
 echo "****************************************************************"
 wget -c http://wordpress.org/latest.tar.gz
 tar -xzvf latest.tar.gz
-rsync -av wordpress/* /var/www/html/
+cp -r wordpress/. /var/www/html
 chown -R www-data:www-data /var/www/html/
 chmod -R 755 /var/www/html/
 rm /var/www/html/index.html
@@ -50,6 +51,7 @@ sed -i "s/username_here/$DB_USER/g" wp-config.php
 sed -i "s/password_here/$DB_PASS/g" wp-config.php
 sed -i "s/localhost/mysql.$DOMAIN_NAME/g" wp-config.php
 
-systemctl restart apache2.service
+service apache2 restart
+
 
 

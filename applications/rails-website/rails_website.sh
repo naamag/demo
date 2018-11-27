@@ -3,8 +3,7 @@
 # Stop Script on Error
 set -e
 
-
-# For Debugging (print env. variables into a file)
+# For Debugging (print env. variables into a file)  
 printenv > /var/log/colony-vars-"$(basename "$BASH_SOURCE" .sh)".txt
 
 
@@ -56,11 +55,7 @@ mkdir /home/artifacts
 cd /home/artifacts || exit
 git clone https://github.com/cloudshell-colony/sample_rails_source.git
 
-mkdir /home/ubuntu/wwwroot;
-cp -a /home/artifacts/sample_rails_source/website/. /home/ubuntu/wwwroot
-
-
-cd /home/ubuntu/wwwroot || exit
+cd /home/artifacts/sample_rails_source/website || exit
 bundle install
 
 

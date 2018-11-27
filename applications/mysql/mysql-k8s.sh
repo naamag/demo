@@ -1,11 +1,9 @@
 #!/usr/bin/env bash
 
-# Stop Script on Error
-set -e
-
-# For Debugging (print env. variables into a file)  
-printenv > /var/log/colony-vars-"$(basename "$BASH_SOURCE" .sh)".txt
- 
+# For Debugging (print env. variables, define command tracing)
+# set -o xtrace
+# env
+# set
 
 echo "****************************************************************"
 echo "Updating System"
@@ -43,6 +41,8 @@ password=$DB_PASS
 pager=/usr/bin/less
 EOL
 
+service mysql start
+
 echo "****************************************************************"
 echo "Creating database"
 echo "****************************************************************"
@@ -55,7 +55,8 @@ echo "Configuring Remote Connection Access"
 echo "****************************************************************"
 # updating sql config to not bind to a specific address
 sed -i 's/bind-address/#bind-address/g' /etc/mysql/mysql.conf.d/mysqld.cnf
-systemctl restart mysql.service
+
+service mysql restart
 
 # granting db access
 mysql --defaults-extra-file=/home/pk/my.cnf << EOF
