@@ -31,9 +31,8 @@ infrastructure:
 source:
   os_type: linux
   image:
-    # This is a clean Ubuntu server image that will
-    # be used to create a new EC2 instance in the defined
-    # AWS region
+    # This is a clean Ubuntu server image that will be used 
+    # to create a new VM on your preferred cloud provider
     ami:
       - id: ami-f90a4880
         region: eu-west-1
